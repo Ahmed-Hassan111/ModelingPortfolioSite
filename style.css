@@ -262,3 +262,184 @@ i.fas,
 i.fab {
   margin-right: 0.5rem;
 }
+/* Media Queries */
+
+/* Tablet (768px and up) */
+@media (min-width: 768px) {
+  .nav-item .nav-link {
+    font-size: 1.1rem;
+  }
+
+  .nav-item:hover::after {
+    width: 40px;
+  }
+
+  .main-section {
+    height: 80vh;
+  }
+
+  .main-content h1 {
+    font-size: 3rem;
+  }
+
+  .main-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-img {
+    max-height: 350px;
+  }
+
+  .card img {
+    height: 250px;
+  }
+
+  .about-bg {
+    min-height: 450px;
+  }
+
+  .about-counters-container {
+    padding: 40px 0;
+  }
+
+  .counter-box i {
+    font-size: 3rem;
+    padding: 20px;
+  }
+
+  .counter-num {
+    font-size: 2rem;
+  }
+
+  .counter-title {
+    font-size: 1.1rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-footer img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .bg-crsl {
+    height: 55vh;
+  }
+
+  .test img.testimonial-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .test h5 {
+    font-size: 1.3rem;
+  }
+
+  .test p {
+    font-size: 1rem;
+  }
+
+  .contact-section {
+    padding: 2.5rem 0;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+  }
+
+  a.text-dark {
+    font-size: 1.3rem;
+  }
+}
+
+/* Laptop/Desktop (992px and up) */
+@media (min-width: 992px) {
+  .nav-item .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .nav-item:hover::after {
+    width: 50px;
+  }
+
+  .main-section {
+    height: 100vh;
+  }
+
+  .main-content h1 {
+    font-size: 4rem;
+  }
+
+  .main-content h2 {
+    font-size: 2rem;
+  }
+
+  .about-img {
+    max-height: 400px;
+  }
+
+  .card img {
+    height: 300px;
+  }
+
+  .about-bg {
+    min-height: 500px;
+  }
+
+  .about-counters-container {
+    padding: 60px 0;
+  }
+
+  .counter-box i {
+    font-size: 4rem;
+    padding: 25px;
+  }
+
+  .counter-num {
+    font-size: 2.5rem;
+  }
+
+  .counter-title {
+    font-size: 1.2rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-footer img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .bg-crsl {
+    height: 60vh;
+  }
+
+  .test img.testimonial-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .test h5 {
+    font-size: 1.5rem;
+  }
+
+  .test p {
+    font-size: 1rem;
+  }
+
+  .contact-section {
+    padding: 3rem 0;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+  }
+
+  a.text-dark {
+    font-size: 1.5rem;
+  }
+}
