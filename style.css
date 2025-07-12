@@ -30,7 +30,11 @@
   opacity: 1;
   width: 50px;
 }
-
+/* Navbar Toggler Color Change */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 119, 255, 1)' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  /* Changed to blue (rgba(0, 119, 255, 1)) */
+}
 .main-section {
   background: url("img/model.jpg") center center/cover no-repeat;
   position: relative;
@@ -262,184 +266,99 @@ i.fas,
 i.fab {
   margin-right: 0.5rem;
 }
-/* Media Queries */
 
-/* Tablet (768px and up) */
-@media (min-width: 768px) {
-  .nav-item .nav-link {
-    font-size: 1.1rem;
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  h1.display-1 {
+    font-size: 2.5rem;
   }
 
-  .nav-item:hover::after {
-    width: 40px;
+  h2.display-5 {
+    font-size: 1.5rem;
   }
 
+  .main-section {
+    height: 70vh;
+  }
+
+  .card-body .btn {
+    width: 100%;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .carousel-item,
+  .bg-crsl {
+    height: 40vh;
+  }
+
+  .about-img {
+    max-height: 250px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
   .main-section {
     height: 80vh;
   }
 
-  .main-content h1 {
-    font-size: 3rem;
-  }
-
-  .main-content h2 {
-    font-size: 1.5rem;
+  .carousel-item,
+  .bg-crsl {
+    height: 50vh;
   }
 
   .about-img {
-    max-height: 350px;
-  }
-
-  .card img {
-    height: 250px;
-  }
-
-  .about-bg {
-    min-height: 450px;
-  }
-
-  .about-counters-container {
-    padding: 40px 0;
-  }
-
-  .counter-box i {
-    font-size: 3rem;
-    padding: 20px;
-  }
-
-  .counter-num {
-    font-size: 2rem;
-  }
-
-  .counter-title {
-    font-size: 1.1rem;
-  }
-
-  .card-title {
-    font-size: 1.1rem;
-  }
-
-  .card-footer img {
-    width: 35px;
-    height: 35px;
-  }
-
-  .bg-crsl {
-    height: 55vh;
-  }
-
-  .test img.testimonial-img {
-    width: 120px;
-    height: 120px;
-  }
-
-  .test h5 {
-    font-size: 1.3rem;
-  }
-
-  .test p {
-    font-size: 1rem;
-  }
-
-  .contact-section {
-    padding: 2.5rem 0;
-  }
-
-  .lead {
-    font-size: 1.1rem;
-  }
-
-  a.text-dark {
-    font-size: 1.3rem;
+    max-height: 300px;
   }
 }
 
-/* Laptop/Desktop (992px and up) */
-@media (min-width: 992px) {
-  .nav-item .nav-link {
-    font-size: 1.2rem;
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-section {
+    height: 90vh;
   }
 
-  .nav-item:hover::after {
-    width: 50px;
+  h1.display-1 {
+    font-size: 3rem;
+  }
+
+  h2.display-5 {
+    font-size: 2rem;
+  }
+
+  .carousel-item,
+  .bg-crsl {
+    height: 55vh;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  h1.display-1 {
+    font-size: 4rem;
   }
 
   .main-section {
     height: 100vh;
   }
 
-  .main-content h1 {
-    font-size: 4rem;
-  }
-
-  .main-content h2 {
-    font-size: 2rem;
-  }
-
-  .about-img {
-    max-height: 400px;
-  }
-
-  .card img {
-    height: 300px;
-  }
-
-  .about-bg {
-    min-height: 500px;
-  }
-
-  .about-counters-container {
-    padding: 60px 0;
-  }
-
-  .counter-box i {
-    font-size: 4rem;
-    padding: 25px;
-  }
-
-  .counter-num {
-    font-size: 2.5rem;
-  }
-
-  .counter-title {
-    font-size: 1.2rem;
-  }
-
-  .card-title {
-    font-size: 1.1rem;
-  }
-
-  .card-footer img {
-    width: 40px;
-    height: 40px;
-  }
-
+  .carousel-item,
   .bg-crsl {
     height: 60vh;
   }
+}
 
-  .test img.testimonial-img {
-    width: 150px;
-    height: 150px;
+/* Extra large devices (1200px and up) */
+@media (min-width: 1200px) {
+  .main-section {
+    height: 100vh;
   }
 
-  .test h5 {
-    font-size: 1.5rem;
-  }
-
-  .test p {
-    font-size: 1rem;
-  }
-
-  .contact-section {
-    padding: 3rem 0;
-  }
-
-  .lead {
-    font-size: 1.1rem;
-  }
-
-  a.text-dark {
-    font-size: 1.5rem;
+  .carousel-item,
+  .bg-crsl {
+    height: 60vh;
   }
 }
