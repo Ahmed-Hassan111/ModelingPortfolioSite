@@ -36,7 +36,7 @@
   /* Changed to blue (rgba(0, 119, 255, 1)) */
 }
 .main-section {
-  background: url("img/model.jpg") center center/cover no-repeat;
+  background: url("img/modelCom.jpg") center center/cover no-repeat;
   position: relative;
   background-size: cover;
   background-position: top center;
