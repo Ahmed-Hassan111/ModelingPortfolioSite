@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* Existing styles from your input */
 .nav-item {
   position: relative;
